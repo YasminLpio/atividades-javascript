@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+h2  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(251, 93, 191);
+    font-weight: bolder;
+}
+
+.topo {
+    display: grid;
+    height: 100vh;
+    align-content: start;
+    justify-items: start;
+    padding-left: 100px;
+    padding-top: 180px;
+    
+}
+
+.topo h1, .topo h2, .central, .botoes {
+  width: 400px;
+  text-align: center;
+  
+}
+
+.topo h1 {
+    text-shadow: 0 4px 6px rgba(137, 43, 226, 0.38);
+}
+
+.topo h2 {
+    text-shadow: 0 4px 6px rgba(251, 93, 190, 0.38);
+}
+
+img {
+    width: 400px;
+    height: auto; 
+    box-shadow: 0 4px 6px -1px rgba(137, 43, 226, 0.413);
+    border-radius: 50%;
+}
+
+.img {
+    display: grid;
+    justify-items: end;
+    align-content: center;
+    padding-right: 100px;
+    justify-self: end
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  align-items: center;
+  
+}
+
+h3 {
+    display: grid;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    color: blue;
+    text-shadow: 0 4px 6px rgba(5, 5, 197, 0.38);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+button {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 3, 0.959);
+    color: blueviolet;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border: 2px solid transparent;
+    background-image: linear-gradient(white, white), linear-gradient(to right, rgb(251, 93, 191), blue);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.botoes {
+    display: grid;
+    width: 100%;
+    height: 12vh;
+    gap: 10px;
+    
+}
+
+.central {
+    display: grid;
+    width: 400px;
+    gap: 10px;
+    justify-items: center;
+    justify-self: start;
+    margin-top: 80px;
+}
+
+

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  padding: 28px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 18px;
+}
+
+hr {
+  margin-bottom: 25px;
+}
+
+.conjunto {
+  display: grid;
+  width: 600px;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  gap: 25px;
+}
+
+.individual {
+  display: block;
+  width: 480px;
+  height: auto;
+}
+
+.trio {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.trio img {
+  display: block;
+  width: 130px;
+  height: auto;
+  cursor: pointer;
+}
